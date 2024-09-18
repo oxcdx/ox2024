@@ -1,1 +1,27 @@
 // Add your own custom styles here
+
+.theme-switcher label {
+  border-radius: 2px;
+  border-radius: 0;
+  background-color: #2a2a2a;
+}
+
+.theme-switcher span {
+  top: -0.1rem;
+  height: 1.2rem;
+  width: 1.5rem;
+  border-radius: 2px;
+  --tw-bg-opacity: 1;
+  background-color: transparent;
+}
+
+:is(.dark .theme-switcher span) {
+  background-color: transparent;
+  top: -0.1rem;
+  height: 1.2rem;
+  width: 1.5rem;
+  border-radius: 2px;
+  path {
+    fill: #ccc;
+  }
+}

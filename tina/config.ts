@@ -1,5 +1,9 @@
 import { defineConfig } from "tinacms";
 
+import Post from "./collections/post";
+import Page from "./collections/page";
+import Project from "./collections/project";
+
 // Your hosting provider likely exposes this as an environment variable
 const branch =
   process.env.GITHUB_BRANCH ||
@@ -21,33 +25,12 @@ export default defineConfig({
   },
   media: {
     tina: {
-      mediaRoot: "",
+      mediaRoot: "uploads",
       publicFolder: "static",
     },
   },
   // See docs on content modeling for more info on how to setup new content models: https://tina.io/docs/schema/
   schema: {
-    collections: [
-      {
-        name: "post",
-        label: "Posts",
-        path: "content/english/posts",
-        fields: [
-          {
-            type: "string",
-            name: "title",
-            label: "Title",
-            isTitle: true,
-            required: true,
-          },
-          {
-            type: "rich-text",
-            name: "body",
-            label: "Body",
-            isBody: true,
-          },
-        ],
-      },
-    ],
+    collections: [ Post, Page, Project ],
   },
 });
