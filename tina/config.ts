@@ -12,12 +12,16 @@ const branch =
   "main";
 
 export default defineConfig({
-  branch,
+  // just testing, switch back to use branch const later
+  branch: "main",
 
   // Get this from tina.io
-  clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
+  // clientId: process.env.NEXT_PUBLIC_TINA_CLIENT_ID,
+  clientId: "833e751e-bab6-4da0-bbf6-da3f2cada7f1", 
   // Get this from tina.io
-  token: process.env.TINA_TOKEN,
+  // token: process.env.TINA_TOKEN,
+  // hardcode this later
+  token: "3d07cdaa8bbc02e44c8d3030343c8629a2766fb5",
 
   build: {
     outputFolder: "admin",
