@@ -7,4 +7,6 @@ acd
 
 Cloud test
 
+![](/uploads/o-cass-vivid-labs-main-2.jpg)
+
 ![](</uploads/static/uploads/captured_image (86) (1).png>)
