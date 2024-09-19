@@ -1,6 +1,6 @@
 ---
 title: Meow 6
-featured_image: /uploads/o-cass-vivid-labs-main-2.jpg
+featured_image: /uploads/static/uploads/captured_image (86) (1).png
 ---
 
 acd
