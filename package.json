@@ -23,7 +23,22 @@
     "@tailwindcss/forms": "^0.5.7",
     "@tailwindcss/typography": "^0.5.10",
     "@tinacms/cli": "^1.5.42",
-    "@types/node": "^20.16.5",
+    "@types/node": "^20.11.30",
+    "@udecode/cn": "^33.0.0",
+    "@udecode/plate": "^36.3.6",
+    "@udecode/plate-autoformat": "^36.0.0",
+    "@udecode/plate-block-quote": "^36.0.0",
+    "@udecode/plate-code-block": "^36.0.0",
+    "@udecode/plate-combobox": "^36.0.0",
+    "@udecode/plate-common": "^36.3.4",
+    "@udecode/plate-floating": "^36.3.2",
+    "@udecode/plate-heading": "^36.0.12",
+    "@udecode/plate-indent": "^36.0.0",
+    "@udecode/plate-indent-list": "^36.3.3",
+    "@udecode/plate-link": "^36.3.2",
+    "@udecode/plate-list": "^36.0.0",
+    "@udecode/plate-paragraph": "^36.0.0",
+    "@udecode/plate-slash-command": "^36.0.0",
     "autoprefixer": "^10.4.18",
     "postcss": "^8.4.36",
     "postcss-cli": "^11.0.0",
@@ -31,9 +46,11 @@
     "prettier-plugin-go-template": "0.0.15",
     "prettier-plugin-tailwindcss": "^0.5.12",
     "tailwind-bootstrap-grid": "^5.1.0",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.4.6"
   },
   "dependencies": {
-    "tinacms": "^1.6.0"
+    "jotai": "^2.9.3",
+    "tinacms": "^2.2.3"
   }
 }
